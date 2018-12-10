@@ -1,0 +1,19 @@
+﻿1. Написать программу для поиска файла с заданным именем во всех подкаталогах заданного каталога:
+java Find <start-dir> <filename>
+	java   Find   D:\MyDir   MyFile.txt
+1.* Включить опцию поиска по маске, т.е.  java Find <start-dir> <filename*>
+	java   Find   D:\MyDir   MyFil*
+
+	2. Написать программу, копирующую файл:
+java Copy <source-file> <destination-file>
+	java   Copy   D:\MyDir\MyFile.txt    D:\Backup\MyFile.bak  
+    2.* Включить опцию перевода в другую кодировку
+
+
+Користуватись п.2
+java   Copy   D:\MyDir\MyFile.txt    D:\Backup\MyFile.bak
+або
+java   Copy   D:\MyDir\MyFile.txt    D:\Backup\MyFile.bak  Kodirovka
+
+де Kodirovka-канонічне значення кодування.
+
